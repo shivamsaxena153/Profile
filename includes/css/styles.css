@@ -1,0 +1,241 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Charu Bhatt
+Updated: May 2017
+*/
+
+/* --------------------------------------
+   layout
+   -------------------------------------- */
+
+   .container{
+		margin: 0 100px;
+	}
+	
+	#primaryContainer{
+		margin-top: 250px;
+	}
+
+	#info{
+		padding-left: 0;
+	}
+	
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   body{
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizelegibility;	
+	}
+
+	#name{
+		padding-top: 1px;
+	}
+
+	.title{
+		color: white;
+		margin-left: 0;
+	}
+
+	.card_heading{
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	body{
+		font-family: lato sans-serif;
+		font-size: 15px;
+	}
+
+	.profileLinks{
+		font-weight: bold;
+	}
+	
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+	.navbar{
+		background-color: #00897b;
+	}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+   #profile_pic{
+		width: 160px;
+		height: 160px;
+		margin-right: 0px;
+	}
+	
+   #contact_link{
+		padding-left: 0px;
+		margin-top: 60px;
+	}
+
+	#contact_link1{
+		padding-left: 0px;
+		margin-top: 60px;
+	}
+
+	#profile_link{
+		margin-left: 200px;
+		margin-right: 0px;
+	}
+
+	.social_icon{
+		font-size: 25px;
+		fill: rgba(54,71,78,.7);
+		color: grey;
+		margin-right: 15px;
+		border-radius: 8px;
+		margin-top: 10px;
+	}
+	
+	.skillsImg{
+		margin-right: 20px;
+	}
+
+	.skillsImg img{
+		width: 120px;
+		height:120px;
+	}
+
+	table{
+		border-spacing: 20px;
+  	}
+
+	td{
+		padding: 6px;
+	}
+
+/* --------------------------------------
+   Cards
+   -------------------------------------- */
+
+	.card{
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		box-shadow: 0 2px 4px 0 rgba(187,187,187,0.50);
+		width: 100%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.card-header{
+		padding-left: 20px;
+		background-color: #009688;
+	}
+
+	.card-content{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.card-content-skills{
+		padding-left: 60px; 
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+
+	
+/* --------------------------------------
+   Media Queries
+  -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px){
+
+	img{
+		width: 50px;
+		height: 50px;
+	}
+
+	#info{
+		margin-left: 40px;
+	}
+
+	#contact_link{
+		width: 100%;
+	}	
+
+	#contact_link1{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.skillsImg img{
+		width: 40px;
+		height:40px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	img{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		top: 20px;
+		left: 90px;
+	}
+
+	.navbar{
+		background-color: #00897b;
+		position: relative;
+	}
+
+	#info{
+		margin-left: 40px;
+	}
+
+	#contact_link{
+		width: 100%;
+	}
+
+	#contact_link1{
+		width: 100%;
+	}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	
+}
+
+@media only screen
+  and (min-device-width : 1118px)
+  and (max-device-width : 1220px) {
+
+  /* Styles */
+  #profileLinks{
+		font-size: 12px;
+		margin-right: 5px;
+	}
+ }
+
+ @media only screen
+  and (min-device-width : 988px)
+  and (max-device-width : 1115px) {
+  /* Styles */
+  #profileLinks{
+		font-size: 10px;
+		margin-right: 5px;
+	}
+ }
+
+	
+
+	
